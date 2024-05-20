@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerlink}}
+    </head>
+<body>
+  
+    <!-- <h1>welcome to the static web</h1>
+    <button class="btn btn-danger">blue</button> -->
+{{>navbar}}
+  <!-- main header -->
+  <div class="containter-fluid main_header">
+    <div class ="row">
+        <div class="col-md-10 col-12 mx-auto">
+          <div class ="row">
+            <!-- left side div -->
+             
+          <div class="content">
+            <form class="temp_form">
+                <input type="text" id="cityName" placeholder="Enter City Name" autocomplete="off">
+                <input type="submit" value="search" id="submitBtn">
+            </form>
+
+          </div>
+          <div class="tempInfo">
+            <div class="top_layer">
+                <p id="day">monday</p>
+                <p id="date">4 Dec</p>
+
+             </div>
+             <div class="main_layer">
+                <p id="city_name">output</p>
+                <div class="middle_layer Data_hide"></div>
+                <p id="temp"><span>0</span> <sup>o</sup>C</p>
+                <p id="temp_status"><i class="fa fa-cloud" aria-hidden="true"></i></p>
+
+             </div>
+          </div>
+           <!-- right side div -->
+          
+    
+
+          </div>
+        </div>
+        </div>
+        </div>
+<!-- footer code -->
+<footer>
+  <p>created by nikita</p>
+</footer>
+<script src="js//main.js"></script>
+<script>
+  
+  const getCurrentDay = () =>{
+            let weekday = new Array(7);
+            weekday[0] = "Sun";
+            weekday[1] = "Mon";
+            weekday[2] = "Tue";
+            weekday[3] = "Wed";
+            weekday[4] = "Thu";
+            weekday[5] = "Fri";
+            weekday[6] = "Sat";
+            let CurrentTime=new Date();
+            days = weekday[CurrentTime.getDay()];
+            let day=document.getElementById('day');
+            day.innerText=days;
+           
+  };
+  getCurrentDay();
+
+</script>
+</body>
+</html>
