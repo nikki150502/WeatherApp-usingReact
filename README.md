@@ -9,8 +9,8 @@ HTML
 , Handlebars (provided by React.js)
 
 **Description:**
-This web application fetches and displays the Any location's temperature and weather information using a weather API.
-It also show current date and time.
+ This web application retrieves and displays the temperature and weather information for any location using a weather API. 
+ It also shows the current date and time.
 
  **How To Run?**
  
@@ -27,8 +27,7 @@ It also show current date and time.
 **Video Demonstration:❤️**
 Watch the video demonstration of the Weather Application to see it in action:
 
-
-https://github.com/nikki150502/WeatherApp-usingReact/assets/155598830/a30137cf-d639-4b76-919b-dae9d90b98ad
+ 
 
 
  
