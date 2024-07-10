@@ -9,12 +9,14 @@ HTML
 , Handlebars (provided by React.js)
 
 **Description:**
- This web application retrieves and displays the temperature and weather information for any location using a weather API. 
+ This web application retrieves and displays any location's temperature and weather information using a weather API. 
  It also shows the current date and time.
 
  **How To Run?**
  
- To run this use **nodemon app.js**  and run on Browser **http://localhost:8000/weather**
+1) Clone this repo
+2) Do npm install
+3) run nodemon app.js
  
 # **Screenshot:**
 **Home Page**
